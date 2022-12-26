@@ -674,7 +674,11 @@
                 <div class="flag-text-content">
                   <div class="title ani animated" swiper-animate-effect="fadeInDown" swiper-animate-duration="0.2s" swiper-animate-delay="0.1s">青墨书晚风</div>
                   
-                      <div class="excerpt ani animated" swiper-animate-effect="fadeInDown" swiper-animate-duration="0.2s" swiper-animate-delay="0.1s"></div>
+                    <div class="ani animated default-excerpt" swiper-animate-effect="fadeInDown" swiper-animate-duration="0.2s" swiper-animate-delay="0.1s">
+                      <vue-typed-js :strings="defaultDesc" :loop="defaultDescTypedLoop" :type-speed="100" :back-speed="50">
+                        <h1 class="typing"></h1>
+                      </vue-typed-js>
+                    </div>
                     
                 </div>
                 <div style="display: flex;" class="flag-text-btns">
@@ -720,7 +724,7 @@
   var loop = JSON.parse('true') ? false : JSON.parse('true');
   var effect = 'slide';
   var swiperLength = parseInt(document.querySelector(".swiper-length").innerText);
-  var defaultDesc = '';
+  var defaultDesc = '人生如逆旅，我亦是行人';
   defaultDesc = defaultDesc.split(',');
   var defaultDescTypedLoop = JSON.parse('true');
   var vm = new Vue({
@@ -1396,6 +1400,8 @@
 		
 			
 		
+			
+		
 	</div>
 </div>
 
@@ -1408,6 +1414,52 @@
   
     
     <article class="post reveal" style="flex-direction: row-reverse;   ">
+      <div class="post-main">
+        <div class="post-info">
+          <div class="post-time">
+            <i class="fas fa-clock" aria-hidden="true"></i>
+            <span class="post-time">2022-12-26</span>
+          </div>
+          <div class="post-title">
+            <a class="post-title-link" href="/2022/12/26/%E6%8E%92%E5%BA%8F/">排序</a>
+          </div>
+          <div class="post-meta">
+            <div class="post-tags">
+              <!-- 文章详情页的标签 -->
+
+            </div>
+            <div class="post-categories">
+              <!-- 文章详情页的分类 -->
+
+
+            </div>
+          </div>
+          <div class="post-img-mobile">
+            <a href="/2022/12/26/%E6%8E%92%E5%BA%8F/" style="background-size: cover; 
+              background-position: center center;">
+              <img class="lazyload lazyload placeholder" src="/medias/3.jpg" class="lazyload placeholder" data-srcset="/medias/3.jpg" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="">
+            </a>
+          </div>
+          <div class="post-content">
+            排序冒泡排序比较相邻的元素。如果第一个比第二个大，就交换他们两个。对每一对相邻元素做同样的工作，从开始第一对到结尾的最后一对。在这一点，最后的元素应该会是最大的数。针对所有的元素重复以上的步骤，除了最后一个。持续每次对越来越少的元素重复上面
+          </div>
+        </div>
+        <div class="post-more">
+          <a href="/2022/12/26/%E6%8E%92%E5%BA%8F/">
+            <i class="iconfont iconmore" pointer style="float: right;  " title="阅读更多"></i>
+          </a>
+        </div>
+      </div>
+      <div class="post-img">
+        <a href="/2022/12/26/%E6%8E%92%E5%BA%8F/" style="background-size: cover; 
+          background-position: center center;">
+          <img class="lazyload lazyload placeholder" src="/medias/3.jpg" class="lazyload placeholder" data-srcset="/medias/3.jpg" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="">
+        </a>
+      </div>
+    </article>
+  
+    
+    <article class="post reveal" style="   ">
       <div class="post-main">
         <div class="post-info">
           <div class="post-time">
@@ -1443,7 +1495,7 @@
         </div>
         <div class="post-more">
           <a href="/2022/12/26/%E4%BD%8D%E8%BF%90%E7%AE%97/">
-            <i class="iconfont iconmore" pointer style="float: right;  " title="阅读更多"></i>
+            <i class="iconfont iconmore" pointer style="  " title="阅读更多"></i>
           </a>
         </div>
       </div>
@@ -1456,7 +1508,7 @@
     </article>
   
     
-    <article class="post reveal" style="   ">
+    <article class="post reveal" style="flex-direction: row-reverse;   ">
       <div class="post-main">
         <div class="post-info">
           <div class="post-time">
@@ -1489,7 +1541,7 @@
         </div>
         <div class="post-more">
           <a href="/2022/12/23/hello-world/">
-            <i class="iconfont iconmore" pointer style="  " title="阅读更多"></i>
+            <i class="iconfont iconmore" pointer style="float: right;  " title="阅读更多"></i>
           </a>
         </div>
       </div>
@@ -1614,6 +1666,27 @@
             
 
             <div class="post-img-box">
+              <a href="/2022/12/26/%E6%8E%92%E5%BA%8F/" class="post-img " style="background-size: cover; 
+                background-position: center center;">
+                <img class="lazyload lazyload placeholder" style="width:100%;height:100%;object-fit:cover;" data-src="/medias/3.jpg" class="lazyload placeholder" data-srcset="/medias/3.jpg" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="">
+              </a>
+            </div>
+            <div class="post-date-title">
+              <div>
+                
+                  <span class="post-date">12-26</span>
+                
+              </div>
+              <a class="post-title" href="/2022/12/26/%E6%8E%92%E5%BA%8F/">排序</a>
+            </div>
+          </div>
+        
+          <div class="aside-list-item">
+            
+            
+            
+
+            <div class="post-img-box">
               <a href="/2022/12/26/%E4%BD%8D%E8%BF%90%E7%AE%97/" class="post-img " style="background-size: cover; 
                 background-position: center center;">
                 <img class="lazyload lazyload placeholder" style="width:100%;height:100%;object-fit:cover;" data-src="/medias/2.jpg" class="lazyload placeholder" data-srcset="/medias/2.jpg" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="">
@@ -1657,7 +1730,7 @@
       
   <section class="widget side_archives">
     
-    <header><a style="color: red" href='/archives/'><i class="fas fa-archive fa-fw" aria-hidden="true"></i><span class='name'>归档</span></a></header><div class="content"><ul class="card-archive-list"><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2022/12/"><span class="card-archive-list-date">十二月 2022</span><span class="card-archive-list-count">2</span></a></li></ul></div>
+    <header><a style="color: red" href='/archives/'><i class="fas fa-archive fa-fw" aria-hidden="true"></i><span class='name'>归档</span></a></header><div class="content"><ul class="card-archive-list"><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2022/12/"><span class="card-archive-list-date">十二月 2022</span><span class="card-archive-list-count">3</span></a></li></ul></div>
   </section>
 
       <section class="widget side_webinfo">
@@ -1674,7 +1747,7 @@
       
         <div class="webinfo-item">
           <div>文章数目：</div>
-          <div>2 篇</div>
+          <div>3 篇</div>
         </div>
       
 
@@ -1717,7 +1790,7 @@
         <div class="webinfo-item">
           <div>最后活动时间：</div>
           
-            <div id="last-update" style="display: none;">Mon Dec 26 2022 21:13:22 GMT+0800 (中国标准时间)</div>
+            <div id="last-update" style="display: none;">Mon Dec 26 2022 21:58:42 GMT+0800 (中国标准时间)</div>
             <div id="last-update-show">2022-12-26 日</div>
           
         </div>
